@@ -83,7 +83,7 @@ require("@nomiclabs/hardhat-waffle");
  * @type import('hardhat/config').HardhatUserConfig
  */
 module.exports = {
-  solidity: "0.8.7",
+  solidity: "0.8.4",
 };
 ```
 
@@ -99,7 +99,7 @@ touch contracts/Token.sol
 Now we add our ERc20 Token Code from the previously chapter into the Solidity file `.sol`:
 
 ```solidity
-pragma solidity ^0.8.7;
+pragma solidity ^0.8.4;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
@@ -125,8 +125,8 @@ npx hardhat compile
 
 Then you should see something like the following lines in your console:
 ```
-Downloading compiler 0.8.7
-Compiling 5 files with 0.8.7
+Downloading compiler 0.8.4
+Compiling 5 files with 0.8.4
 ```
 
 Yay - You just compiled your first smart contract on your local machine!
@@ -191,7 +191,7 @@ Debugging is a strong utility if something happens when you have not expected. Y
 
 ```solidity
 
-pragma solidity ^0.8.7;
+pragma solidity ^0.8.4;
 
 import "hardhat/console.sol";
 
