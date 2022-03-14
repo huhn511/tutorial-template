@@ -1,5 +1,4 @@
 ---
-slug: The EVM Guide - Setup
 title: 'Setup Developer environment and deploy ERC20 Token'
 authors: huhn511
 tags: [Smart Contracts, EVM]
