@@ -1,5 +1,4 @@
 ---
-slug: The EVM Guide
 title: 'The complete Ethereum Virtual Machine (EVM) Guide on IOTA'
 authors: huhn511
 tags: [Smart Contracts, EVM]
